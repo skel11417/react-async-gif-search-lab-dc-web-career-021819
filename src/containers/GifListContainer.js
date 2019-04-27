@@ -19,7 +19,6 @@ class GifListContainer extends Component {
     this.setState({
       searchTerm: event.target.value
     })
-    console.log(this.state.searchTerm)
   }
 
   searchAPI = () => {
